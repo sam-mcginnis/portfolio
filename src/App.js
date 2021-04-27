@@ -2,6 +2,7 @@ import { Physics } from '@react-three/cannon';
 import { Circle, OrbitControls, Sphere, Stars } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import Cube from "./components/Cube";
+import Drone from "./components/Drone";
 import Plane from "./components/Plane";
 import "./css/App.css";
 
@@ -15,7 +16,7 @@ function App() {
       <Stars />
       <Physics>
       <Plane />
-      <Cube />
+      <Drone />
       </Physics>
     </Canvas>
   );

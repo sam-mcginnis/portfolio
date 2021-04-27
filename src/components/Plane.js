@@ -5,8 +5,8 @@ function Plane(props) {
 
     return (
       <mesh ref = {ref} >
-        <planeBufferGeometry attach="geometry" args={[10, 10]} />
-        <meshLambertMaterial attach="material" color="orange" />
+        <planeBufferGeometry attach="geometry" args={[100, 100]} />
+        <meshLambertMaterial attach="material" color="silver" />
       </mesh>
     );
   }
