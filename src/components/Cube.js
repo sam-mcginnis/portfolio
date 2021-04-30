@@ -1,7 +1,7 @@
 import { useBox } from "@react-three/cannon";
   
   function Cube() {
-    const [ref, api] = useBox(() => ({mass: 1, position: [0, 1, 0]}));
+    const [ref, api] = useBox(() => ({mass: 1, position: [0, 10, 0]}));
     document.onkeydown= (e) =>{
       if (e.key == 'ArrowUp') {
         api.velocity.set(0, 0, -5);

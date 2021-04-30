@@ -17,6 +17,7 @@ function App() {
       <Physics>
       <Plane />
       <Drone />
+      <Cube />
       </Physics>
     </Canvas>
   );
